@@ -1,0 +1,850 @@
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #F1F2F2;
+    overflow-x: hidden;
+    text-align: right;
+    direction: rtl;
+}
+.row
+{
+    margin: 0;
+}
+a,
+a:hover {
+    transition: 0.3s all ease-in-out;
+    text-decoration: none;
+}
+a:focus,button:focus ,input:focus,select:focus,textarea:focus
+{outline: 0;box-shadow: 0 0 0;}
+.p-t-100
+{
+    padding-top: 100px;
+}
+#column_left {
+	background: #737474;
+    /* padding-top: 25px; */
+}
+
+.nav-list li a {
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	cursor: pointer;
+	border-bottom: 3px solid #515151 !important;
+	color: #fff;
+	font-size: 14px;
+	padding-left: 13px !important;
+    background-color: #858585;
+}
+.nav-list > li > a:hover {
+	background-color: #424242;
+}
+#mainUl li
+{
+    /* padding-right: 20px; */
+}
+ul.nav.nav-list li
+{
+    width: 100%;
+}
+#column_left ul{
+    padding: 0;
+}
+#column_left input
+{
+    cursor: pointer;
+    margin-left: 5px;
+}
+#column_left label
+{
+    width: 100%;
+    color: #fff;
+    padding: 5px 10px;
+}
+#column_left i
+{
+    float: left;
+}
+.sidebar .logoDiv img
+{
+    width: 55%;
+    margin: auto;
+    float: none;
+    display: block;
+    padding: 10px;
+}
+.sidebar .innerImg
+{
+    padding-bottom: 10px;
+    /* position: absolute; */
+    margin: auto;
+    top: 0;
+
+    border-bottom: 1px solid #5a5c5c;
+}
+.logoDiv
+{
+    background: radial-gradient(transparent,#5a5c5c);
+    padding-bottom: 20px;
+}
+.sidebar
+{
+    padding: 0;
+    /* padding-top: 9.7%; */
+
+}
+a.accordion-heading:not(.collapsed) i
+{
+    transform: rotate(0deg);
+}
+
+a.accordion-heading.collapsed i
+{
+    /* transform: rotate(-90deg); */
+}
+.mainDiv
+{
+    background-image: url(../img/bg1.png);
+    background-size: 100% 63%;
+    background-repeat: no-repeat;
+}
+.mainDiv li a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #474dfe;
+}
+.navbar-brand span.current,
+.navbar-brand i
+{
+    color: #c8dff5;
+}
+.navbar-brand i
+{
+    font-size: 12px;
+    margin: 0 4px;
+}
+ul.navbar-nav.mr-auto {
+    width: 100%;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: #fff;
+    font-size: 18px;
+    margin: 0px 10px;
+    padding-top: 19px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+#profile
+{
+    padding-top: 13px;
+}
+.dropdown-toggle::after {
+    margin-right: 6px;
+}
+form.myForm input,
+form.myForm select
+{
+    border: 1px solid #15096a;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+form.myForm
+{
+    border: 2px solid #15096a;
+    border-radius: 15px;
+    background-color: #ffffffdb;
+}
+.myForm label
+{
+    color:#000;
+}
+form.myForm h3
+{
+    background-color: #15096a;
+    color:#76aae2;
+    border-radius: 12px 12px 0 0;
+    padding: 7px 10px;
+    font-size: 22px;
+}
+.det h4 {
+    background-color: #3f59ff;
+    color: #fff;
+    border-radius: 12px 12px 0 0;
+    padding: 5px 10px;
+    margin-bottom: 0;
+}
+.lefR
+{
+    border: 1px solid #3f59ff;
+    padding-top: 10px;
+}
+.lefR input
+{
+    background-image: url(../img/u.png);
+    background-position: right center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding-right: 40px !important;
+}
+.lefR .col-auto:nth-child(2) input
+{
+    background-image: url(../img/msg.png);
+}
+.lefR .col-auto:nth-child(3) input
+{
+    background-image: url(../img/tel.png);
+}
+div#example_length,div#example_filter,div#example_info,div#example_paginate
+{
+    display: none;
+}
+thead th {
+    background-color: #3f59ff;
+    color: #fff;
+}
+thead th:first-child{
+    border-radius: 0 15px 0 0 ;
+}
+
+thead th:last-child{
+    border-radius: 15px 0  0 0 ;
+}
+table{border:0}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(241 242 242 / 0%);
+}
+table#example
+{border:1px solid #3f59ff;
+    border:0 0 1px 1px;
+    border-radius:15px ;
+    border-radius: 18px;
+    border-top: 0;
+    display: table
+}
+table#example td,
+table#example tr
+{
+    border-right: 0;
+}
+table#example input
+{
+    margin:auto;
+    display: block;
+}
+.tot
+{
+    border-radius: 6px;
+    border:1px solid #3f59ff;
+    padding: 5px 10px;
+}
+.tot p
+{
+    display: inline-block;
+    margin: 0;
+}
+.tot p:last-child
+{
+    float: left;
+}
+#add
+{
+    background-color: #3f59ff;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+.lastBtns .btn
+{
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 15px;
+    background-color: #3f59ff;
+    margin-bottom: 20px;
+}
+.lastBtns .btn:last-child
+{
+    background-color: #15096a;
+}
+.lastDiv
+{
+    clear: both;
+    margin-top: 20px;
+}
+.lastLogo
+{
+    clear: both;
+}
+.lastLogo img
+{
+    width: 100px;
+    float: left;
+    margin: 20px;
+}
+footer
+{
+    background-color: #15096a;
+    color: #fff;
+    padding: 10px 20px;
+    clear: both;
+}
+footer h6
+{
+    text-align: left;
+}
+.sidebar
+{
+    background-color: #858585;
+}
+/* =------ login ------ */
+.mainSec
+{
+    /* background-image: url(../img/logBg.png); */
+    background-image: url(../img/bg1.jpeg);
+    /* background-image: url(../img/a.jpeg); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.mainSec::before
+{
+    background-color: #050404b5;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.logFormDiv
+{
+    background-color: #05040473;
+    padding: 50px 40px;
+    color: #fff;
+    margin-top: 30%;
+}
+.formTit img
+{
+    margin-bottom: 25px;
+}
+.formTit h5
+{
+    color: #ccc;
+    text-transform: capitalize;
+    font-size: 29px;
+}
+.formTit h6
+{
+    color: #ccc;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.formTit
+{
+    /* background-image: url(../img/msgIcon.png); */
+    min-height: 120px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.logFormDiv form small i
+{
+    padding-left: 10px;
+}
+.logFormDiv form small
+{
+    color: #bdc0c2;
+}
+.logFormDiv form .btn
+{
+    background-color: #5394e280;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.logFormDiv form .btn:hover
+{
+    background-color: #5394e2d1;
+    transition: all 0.3s ease-in-out;
+}
+
+.logFormDiv form input::placeholder
+{
+    color: #b31313;
+}
+.logFormDiv form input
+{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color:#1c8cd0;
+    border: 1px solid #ccc;
+    color: #fff;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+.logFormDiv form input:first-child
+{
+    background-image: url(../img/msg1.png);
+}
+.logFormDiv form input:nth-child(2)
+{
+    background-image: url(../img/key.png);
+}
+.logFot
+{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.logFormDiv form
+{
+    margin-top: 20px;
+}
+.mainLogTit
+{
+    margin-top: 16rem;
+}
+.mainLogTit h4
+{
+    color: #ccc;
+    font-size: 3rem;
+    text-align: center;
+}
+.mainLogTit h3
+{
+    color: #ccc;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 8rem;
+    margin-bottom: 0;
+}
+.mainLogTit h3 span
+{
+    color: #76aae2;
+}
+.modal button.close
+{
+    padding: 0;
+    margin: 0;
+}
+#modal1 .modal-footer
+{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-left: 0;
+}
+.modal-footer .btn
+{
+    background-color: #515151;
+    color: #fff;
+    border:0;
+    margin: 5px auto;
+    border-radius: 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 6px 35px;
+    padding-bottom: 0;
+    margin-left: 0;
+}
+h5#modal1Label {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+}
+.modal-dialog
+{
+    max-width: 80%;
+    height: 90%;
+}
+.lefBords h5
+{
+    background-color: gray;
+    color: #fff;
+    border: 1px solid ccc;
+    box-shadow: 1px 1px 1px grey;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.lefBords h6
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.modItm img
+{
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+}
+.modItm h4
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+.modItmDiv
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 35px;
+    padding: 0 7%;
+}
+.modItm {
+    border: 2px solid gray;
+    box-shadow: 0px 4px 7px grey;
+}
+.headItmsDiv
+{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-gap: 35px;
+    width: 100%;
+}
+.headItm img {
+    margin: 10px auto;
+    display: block;
+}
+.headItm h3 {
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.headItm input,
+.headItm select
+{
+    border: 1px solid #737474;
+    background-color: #e7e7e7;
+    color: grey;
+    margin-bottom: 7px;
+}
+
+.invoiceTbl tr td:first-child,
+.invoiceTbl tr td:nth-child(3),
+.invoiceTbl tr td:nth-child(5),
+.invoiceTbl tr td:nth-child(7)
+{
+    background-color: #eee;
+}
+.invoiceTbl tr:first-child,
+.invoiceTbl tr:first-child td
+{
+    background-color: #041e3a;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.invoiceTbl table tr
+{
+    border-radius: 30px;
+}
+.invoiceTbl tr:first-child td:first-child
+{
+    border-radius: 0 30px 30px 0;
+}
+.invoiceTbl tr:first-child td:last-child
+{
+    border-radius: 30px 0 0 30px;
+}
+.invoiceTbl tr input,
+.invoiceTbl tr select
+{
+    width: 100%;
+    padding: 5px;
+    height: 38px;
+}
+.modal-footer .btn.addBtn
+{
+    border-radius: 30px;
+    background-color: #041e3a;
+    margin: 5px auto;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 2px;
+    margin-left: 0;
+    width: 200px;
+    color: #fff;
+    border:0;
+}
+button.btn.addBtn {
+    direction: ltr;
+}
+#sales
+{
+    text-transform: uppercase;
+}
+#sales .modal-footer,
+#invoice .modal-footer
+{
+    width: 100%;
+    padding: 20px;
+}
+table.table.invoiceTbl.table-responsive-lg.table-bordered
+{
+    border:0;
+}
+table.table.invoiceTbl.table-responsive-lg.table-bordered tbody
+{
+    /* height: 300px;
+    overflow-y: auto;
+    display: block; */
+}
+.bBg
+{
+    border-radius: 30px;
+    padding: 13px;
+    width: 100%;
+    clear: both;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #041e3a;
+    margin-bottom: 20px;
+}
+.colrdTbl td {
+    border: 10px solid #ffffff;
+}
+.colrdTbl tr
+{
+    text-align: center;
+    border: 10px solid #FFF;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.colrdTbl tr td:last-child
+{
+    background-color: #f4f5f6;
+    padding: 8px 0 0;
+    vertical-align: middle;
+}
+.colrdTbl tr td:first-child
+{
+    background-color: #ccc;
+    padding: 0;
+}
+button.btn.btn-primary.fBtn {
+    margin: 40px auto;
+    display: block;
+}
+.colrdTbl input
+{
+    background-color: transparent;
+    width: 100%;
+    border:0;
+    padding: 5px 10px;
+}
+.fa-trash-alt
+{
+    color: red;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+}
+.bg-light
+{
+    background-color: #ccc;
+    color: #000;
+}
+.bg-light .formTit h6,
+.bg-light .formTit h5
+{
+    color: #29323a;
+}
+.bg-light.logFormDiv form small
+{
+    color: #76aae2;
+}
+.bg-light.logFormDiv form .btn
+{
+    background-color: #1c8cd0;
+}
+/* --------------- page 1 ------------- */
+    /* width */
+    ::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #515151;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: gray;
+  }
+
+/* ============ responsive ========= */
+
+@media only screen and (max-width: 1440px) {
+    .logFormDiv
+    {
+        margin-top: 10%;
+    }
+    .mainLogTit {
+        margin-top: 11rem;
+    }
+  }
+@media only screen and (max-width: 1028px) {
+    .mainLogTit h3
+    {
+        font-size: 7rem;
+    }
+    .formTit h5
+    {
+        font-size: 25px;
+    }
+    .formTit h6
+    {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #add
+    {
+        font-size: 13px;
+    }
+    table#example
+    {
+        display: block;
+    }
+    .mainSec .col-md-6
+    {
+        max-width: 100%;
+    }
+    .mainSec .row
+    {
+        width: 100%;
+        display: grid;
+    }
+    .mainLogTit {
+        margin-top: 2rem;
+    }
+    .logFot
+    {
+        padding-top: 20px;
+        margin-top: 50px;
+        position: relative;
+    }
+    .mainSec
+    {
+        height: 100% !important;
+    }
+    .mainSec::before
+    {
+        position: fixed;
+    }
+    .logFormDiv {
+        margin-top: 2%;
+        padding-top: 30px;
+    }
+    .mainLogTit h3 {
+        font-size: 5rem;
+    }
+    .mainLogTit h4 {
+        font-size: 2rem;
+    }
+  }
+@media only screen and (max-width: 450px) {
+.sidebar
+{
+    height: auto !important;
+}
+.mainLogTit h3 {
+    font-size: 3.5rem;
+}
+.mainLogTit h4 {
+    font-size: 1.5rem;
+}
+.logFormDiv {
+    padding: 30px 20px;
+}
+.formTit h5 {
+    font-size: 20px;
+}
+.formTit h6 {
+    font-size: 17px;
+}
+.logFormDiv form input
+{
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.logFormDiv form .btn
+{
+    font-size: 17px;
+    padding: 2px;
+}
+.mainLogTit {
+    margin-top: 0rem;
+}
+.headItmsDiv,.modItmDiv
+{
+    grid-template-columns: auto;
+}
+h5#modal1Label {
+    font-size: 13px;
+}
+.modal-dialog
+{
+    max-width: 100%;
+}
+.navbar-brand
+{
+    margin-right: 0;
+}
+ul.navbar-nav.mr-auto
+{
+    padding: 0;
+}
+.dropup, .dropright, .dropdown, .dropleft
+{
+    border-bottom: 1px solid #fff;
+}
+.sidebar .logoDiv img {
+    width: 30%;
+}
+nav  a
+{
+    font-size: 12px !important;
+}
+button.navbar-toggler.collapsed ,button.navbar-toggler{
+    transform: scale(0.7);
+}
+.navbar-brand i {
+    font-size: 9px;
+}
+.det h4,form.myForm h3
+{
+    font-size: 19px;
+}
+.logFormDiv form input
+{
+    background-size: 20px;
+}
+}
